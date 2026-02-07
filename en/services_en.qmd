@@ -1,0 +1,98 @@
+---
+title: "Areas of expertise"
+lang: en
+---
+
+::: {.callout-note collapse="true" appearance="minimal"}
+
+# {{< fa database >}}️ Geological data management and quality control
+
+* Building, cleaning, and validation of geological databases
+
+* Standardization of data structures and data loading workflows
+
+* Auditing and quality control (consistency checks, duplicates, topological errors)
+
+* Process automation with R / Python / SQL
+
+* Integration of drilling, mapping, and geophysical data
+
+:::
+
+::: {.callout-note collapse="true" appearance="minimal"}
+
+# {{< fa map >}}️ GIS and advanced cartography
+
+* Geological and thematic cartography in QGIS
+
+* Production of technical maps and professional layouts
+
+* Management of projections, grids, DTMs/DEMs, and spatial analysis
+
+* Processing of satellite imagery and raster data
+
+* GIS–3D modeling integration
+
+:::
+
+::: {.callout-note collapse="true" appearance="minimal"}
+
+# {{< fa border-all >}}️ 3D geological modelingD
+
+* Implicit and explicit modeling (Leapfrog, RecMin, Minesight, Datamine, or similar)
+
+* Construction of wireframes, geological surfaces, and solids
+
+* Model preparation for resource estimation
+
+* Geometric validation and geological consistency
+
+:::
+
+::: {.callout-note collapse="true" appearance="minimal"}
+
+# {{< fa chart-column >}}️ Data analysis and geostatistics
+
+* Descriptive and exploratory statistics of drilling data
+
+* Compositing, declustering, and variography analysis
+
+* Support for resource estimation (IDW, Kriging, etc.)
+
+* Model validation
+
+* Visualization and technical reporting
+
+:::
+
+::: {.callout-note collapse="true" appearance="minimal"}
+
+# {{< fa gears >}} Workflow optimization
+
+* Design of reproducible workflows
+
+* Automation of repetitive tasks
+
+* Integration between software (GIS – DB – Modeling – Excel/Calc/R/Python)
+
+* Development of custom scripts and tools
+
+* Technical documentation and process standardization
+
+:::
+
+::: {.callout-note collapse="true" appearance="minimal"}
+
+# {{< fa code-branch >}} Technical and conceptual support
+
+* Critical review of models and data
+
+* Resolution of technical and methodological issues
+
+* Guidance on exploration best practices and data management
+
+* Training for technical teams
+
+* Remote or *in situ* support
+
+:::

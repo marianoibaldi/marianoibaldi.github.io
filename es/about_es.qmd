@@ -1,0 +1,11 @@
+---
+title: "Acerca de mí"
+---
+
+Cuento con experiencia en distintas áreas de la geología, desarrollados principalmente en el ámbito privado. Entre mis actividades se incluyen el mapeo geológico regional y de detalle, el logueo de testigos, la administración y homogenización de bases de datos, la cartografía, la geoinformática, el modelado geológico y la geoestadística.
+
+De manera complementaria, he adquirido experiencia en reparación de hardware informático y otros componentes electrónicos y mecánicos. Poseo conocimientos en programación (principalmente en Python y R), que aplico tanto en el ámbito profesional como en la resolución de problemas prácticos.
+
+En 2016 inicié un doctorado, finalizado en 2025, desarrollado en paralelo a mi actividad profesional, que me permitió profundizar conocimientos en calcografía, petrografía y modelado geológico, con especial orientación a rocas volcaniclásticas.
+
+Actualmente me desempeño como Ayudante A con dedicación simple en las cátedras de Teledetección y Relevamiento Fisiográfico del Departamento de Geología de la Universidad Nacional del Sur.

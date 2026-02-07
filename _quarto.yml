@@ -1,22 +1,50 @@
 project:
   type: website
+  resources:
+    - cv_es.html
+    - cv_en.html
   output-dir: docs
 
+lang: es-AR
+
 website:
-  title: "marianoibaldi.github.io"
+  title: "Mariano Ibaldi"
   navbar:
-    left:
+    right:
       - href: index.qmd
-        text: Home
-      - about.qmd
+        text: Inicio/Home
+      - text: Áreas de trabajo/Areas of expertise
+        menu: 
+          - text: Español
+            href: es/services_es.qmd
+          - text: English
+            href: en/services_en.qmd
+      - text: CV
+        menu: 
+          - text: Español
+            href: cv_es.html
+          - text: English
+            href: cv_en.html
+      - text: Acerca de mí/About me
+        menu: 
+          - text: Español
+            href: es/about_es.qmd
+          - text: English
+            href: en/about_en.qmd
+      - icon: github
+        href: https://github.com/marianoibaldi/marianoibaldi.github.io
+
+      
+  page-footer: 
+      background: dark
+      left: © 2026 Mariano Ibaldi
+      right: Este sitio está construido con {{< fa dumbbell title="esfuerzo" >}}, {{< fa face-grin title="entusiasmo" >}}, [{{< fa brands github title="GitHub" >}}](https://github.com/marianoibaldi/marianoibaldi.github.io){target=_blank}, [{{< fa brands r-project title="R Project" >}}](https://www.r-project.org/about.html){target=_blank} y [Quarto](https://quarto.org/){target=_blank}
 
 format:
   html:
     theme:
-      - cosmo
-      - brand
+      - minty
+      - solar
     css: styles.css
     toc: true
-
-
-
+    page-layout: full

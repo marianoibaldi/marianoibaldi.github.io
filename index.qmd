@@ -1,11 +1,30 @@
 ---
-title: "marianoibaldi.github.io"
+title: "Mariano Ibaldi"
+image: /media/portrait.png
+toc: false
+about: 
+  template: jolla
+  image-width: 12em
+  links: 
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/marianoibaldi/
+    - icon: envelope
+      text: Email
+      href: mailto:moibaldi@gmail.com
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
 ```{r}
-1 + 1
+#| include: false
+#| cache: false
+
+library(lubridate)
+
+f_egreso <- ymd("2007-12-14")
+
+experiencia_total <- floor(time_length(interval(f_egreso, now()), "years"))
 ```
+
+Soy geólogo, cuento con `r experiencia_total` años de experiencia en cartografía, bases de datos, modelado geológico, geoestadística y análisis de datos. Trabajo combinando geociencias, programación (R/Python) y herramientas digitales para resolver problemas técnicos y desarrollar soluciones prácticas.
+
+*I am a geologist with `r experiencia_total` years of experience in mapping, databases, geological modeling, geostatistics, and data analysis. I work at the intersection of geosciences, programming (R/Python), and digital tools to solve technical problems and develop practical solutions.*

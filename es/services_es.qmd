@@ -1,0 +1,97 @@
+---
+title: "Áreas de trabajo"
+---
+
+::: {.callout-note collapse="true" appearance="minimal"}
+
+# {{< fa database >}}️ Gestión y control de calidad de datos geológicos
+
+* Armado, limpieza y validación de bases de datos geológicas
+
+* Estandarización de estructuras y flujos de carga de datos
+
+* Auditoría y control de calidad (consistencias, duplicados, errores topológicos)
+
+* Automatización de procesos con R / Python / SQL
+
+* Integración de datos de sondajes, mapeo y geofísica
+
+:::
+
+::: {.callout-note collapse="true" appearance="minimal"}
+
+# {{< fa map >}}️ SIG y cartografía avanzada
+
+* Cartografía geológica y temática en QGIS
+
+* Generación de mapas técnicos y layouts profesionales
+
+* Manejo de proyecciones, grillas, MDT/DEM y análisis espacial
+
+* Procesamiento de imágenes satelitales y datos *raster*
+
+* Integración GIS–modelado 3D
+
+:::
+
+::: {.callout-note collapse="true" appearance="minimal"}
+
+# {{< fa border-all >}}️ Modelado geológico 3D
+
+* Modelado implícito y explícito (Leapfrog, RecMin, Minesight, Datamine o similares)
+
+* Construcción de *wireframes*, superficies y sólidos geológicos
+
+* Preparación de modelos para estimación de recursos
+
+* Validación geométrica y coherencia geológica
+
+:::
+
+::: {.callout-note collapse="true" appearance="minimal"}
+
+# {{< fa chart-column >}}️ Análisis de datos y geoestadística
+
+* Estadística descriptiva y exploratoria de datos de sondajes
+
+* Compositado, *declustering* y análisis de variografía
+
+* Soporte en estimación de recursos (IDW, Kriging, etc.)
+
+* Validación de modelos
+
+* Visualización y reportes técnicos
+
+:::
+
+::: {.callout-note collapse="true" appearance="minimal"}
+
+# {{< fa gears >}} Optimización de flujos de trabajo
+
+* Diseño de *workflows* reproducibles
+
+* Automatización de tareas repetitivas
+
+* Integración entre software (GIS – DB – Modelado – Excel/Calc/R/Python)
+
+* Desarrollo de scripts y herramientas personalizadas
+
+* Documentación técnica y estandarización de procesos
+
+:::
+
+::: {.callout-note collapse="true" appearance="minimal"}
+
+# {{< fa code-branch >}} Soporte técnico y conceptual
+
+* Revisión crítica de modelos y datos
+
+* Resolución de problemas técnicos y metodológicos
+
+* Asesoramiento en mejores prácticas de exploración y manejo de datos
+
+* Capacitación a equipos técnicos
+
+* Soporte remoto o *in situ*
+
+:::

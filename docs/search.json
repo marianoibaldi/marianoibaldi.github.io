@@ -1,16 +1,37 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "es/services_es.html",
+    "href": "es/services_es.html",
+    "title": "Áreas de trabajo",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "Nota️ Gestión y control de calidad de datos geológicos\n\n\n\n\n\n\nArmado, limpieza y validación de bases de datos geológicas\nEstandarización de estructuras y flujos de carga de datos\nAuditoría y control de calidad (consistencias, duplicados, errores topológicos)\nAutomatización de procesos con R / Python / SQL\nIntegración de datos de sondajes, mapeo y geofísica\n\n\n\n\n\n\n\n\n\n\nNota️ SIG y cartografía avanzada\n\n\n\n\n\n\nCartografía geológica y temática en QGIS\nGeneración de mapas técnicos y layouts profesionales\nManejo de proyecciones, grillas, MDT/DEM y análisis espacial\nProcesamiento de imágenes satelitales y datos raster\nIntegración GIS–modelado 3D\n\n\n\n\n\n\n\n\n\n\nNota️ Modelado geológico 3D\n\n\n\n\n\n\nModelado implícito y explícito (Leapfrog, RecMin, Minesight, Datamine o similares)\nConstrucción de wireframes, superficies y sólidos geológicos\nPreparación de modelos para estimación de recursos\nValidación geométrica y coherencia geológica\n\n\n\n\n\n\n\n\n\n\nNota️ Análisis de datos y geoestadística\n\n\n\n\n\n\nEstadística descriptiva y exploratoria de datos de sondajes\nCompositado, declustering y análisis de variografía\nSoporte en estimación de recursos (IDW, Kriging, etc.)\nValidación de modelos\nVisualización y reportes técnicos\n\n\n\n\n\n\n\n\n\n\nNota Optimización de flujos de trabajo\n\n\n\n\n\n\nDiseño de workflows reproducibles\nAutomatización de tareas repetitivas\nIntegración entre software (GIS – DB – Modelado – Excel/Calc/R/Python)\nDesarrollo de scripts y herramientas personalizadas\nDocumentación técnica y estandarización de procesos\n\n\n\n\n\n\n\n\n\n\nNota Soporte técnico y conceptual\n\n\n\n\n\n\nRevisión crítica de modelos y datos\nResolución de problemas técnicos y metodológicos\nAsesoramiento en mejores prácticas de exploración y manejo de datos\nCapacitación a equipos técnicos\nSoporte remoto o in situ"
+  },
+  {
+    "objectID": "en/about_en.html",
+    "href": "en/about_en.html",
+    "title": "About me",
+    "section": "",
+    "text": "I have experience across different areas of geology, developed primarily in the private sector. My activities include regional and detailed geological mapping, core logging, database management and standardization, cartography, geoinformatics, geological modeling, and geostatistics.\nAdditionally, I have gained experience in computer hardware repair and other electronic and mechanical components. I have programming skills (mainly in Python and R), which I apply both professionally and to solve practical problems.\nIn 2016, I began a PhD, completed in 2025, carried out in parallel with my professional work. This allowed me to deepen my knowledge in calcography, petrography, and geological modeling, with a particular focus on volcaniclastic rocks.\nI am currently working as a Teaching Assistant (part-time) in the Remote Sensing and Physiographic Survey courses at the Department of Geology, Universidad Nacional del Sur."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "marianoibaldi.github.io",
+    "title": "Mariano Ibaldi",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "Soy geólogo, cuento con 18 años de experiencia en cartografía, bases de datos, modelado geológico, geoestadística y análisis de datos. Trabajo combinando geociencias, programación (R/Python) y herramientas digitales para resolver problemas técnicos y desarrollar soluciones prácticas.\nI am a geologist with 18 years of experience in mapping, databases, geological modeling, geostatistics, and data analysis. I work at the intersection of geosciences, programming (R/Python), and digital tools to solve technical problems and develop practical solutions."
+  },
+  {
+    "objectID": "en/services_en.html",
+    "href": "en/services_en.html",
+    "title": "Areas of expertise",
+    "section": "",
+    "text": "Note️ Geological data management and quality control\n\n\n\n\n\n\nBuilding, cleaning, and validation of geological databases\nStandardization of data structures and data loading workflows\nAuditing and quality control (consistency checks, duplicates, topological errors)\nProcess automation with R / Python / SQL\nIntegration of drilling, mapping, and geophysical data\n\n\n\n\n\n\n\n\n\n\nNote️ GIS and advanced cartography\n\n\n\n\n\n\nGeological and thematic cartography in QGIS\nProduction of technical maps and professional layouts\nManagement of projections, grids, DTMs/DEMs, and spatial analysis\nProcessing of satellite imagery and raster data\nGIS–3D modeling integration\n\n\n\n\n\n\n\n\n\n\nNote️ 3D geological modelingD\n\n\n\n\n\n\nImplicit and explicit modeling (Leapfrog, RecMin, Minesight, Datamine, or similar)\nConstruction of wireframes, geological surfaces, and solids\nModel preparation for resource estimation\nGeometric validation and geological consistency\n\n\n\n\n\n\n\n\n\n\nNote️ Data analysis and geostatistics\n\n\n\n\n\n\nDescriptive and exploratory statistics of drilling data\nCompositing, declustering, and variography analysis\nSupport for resource estimation (IDW, Kriging, etc.)\nModel validation\nVisualization and technical reporting\n\n\n\n\n\n\n\n\n\n\nNote Workflow optimization\n\n\n\n\n\n\nDesign of reproducible workflows\nAutomation of repetitive tasks\nIntegration between software (GIS – DB – Modeling – Excel/Calc/R/Python)\nDevelopment of custom scripts and tools\nTechnical documentation and process standardization\n\n\n\n\n\n\n\n\n\n\nNote Technical and conceptual support\n\n\n\n\n\n\nCritical review of models and data\nResolution of technical and methodological issues\nGuidance on exploration best practices and data management\nTraining for technical teams\nRemote or in situ support"
+  },
+  {
+    "objectID": "es/about_es.html",
+    "href": "es/about_es.html",
+    "title": "Acerca de mí",
+    "section": "",
+    "text": "Cuento con experiencia en distintas áreas de la geología, desarrollados principalmente en el ámbito privado. Entre mis actividades se incluyen el mapeo geológico regional y de detalle, el logueo de testigos, la administración y homogenización de bases de datos, la cartografía, la geoinformática, el modelado geológico y la geoestadística.\nDe manera complementaria, he adquirido experiencia en reparación de hardware informático y otros componentes electrónicos y mecánicos. Poseo conocimientos en programación (principalmente en Python y R), que aplico tanto en el ámbito profesional como en la resolución de problemas prácticos.\nEn 2016 inicié un doctorado, finalizado en 2025, desarrollado en paralelo a mi actividad profesional, que me permitió profundizar conocimientos en calcografía, petrografía y modelado geológico, con especial orientación a rocas volcaniclásticas.\nActualmente me desempeño como Ayudante A con dedicación simple en las cátedras de Teledetección y Relevamiento Fisiográfico del Departamento de Geología de la Universidad Nacional del Sur."
   }
 ]

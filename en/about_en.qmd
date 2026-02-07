@@ -1,0 +1,12 @@
+---
+title: "About me"
+lang: en
+---
+
+I have experience across different areas of geology, developed primarily in the private sector. My activities include regional and detailed geological mapping, core logging, database management and standardization, cartography, geoinformatics, geological modeling, and geostatistics.
+
+Additionally, I have gained experience in computer hardware repair and other electronic and mechanical components. I have programming skills (mainly in Python and R), which I apply both professionally and to solve practical problems.
+
+In 2016, I began a PhD, completed in 2025, carried out in parallel with my professional work. This allowed me to deepen my knowledge in calcography, petrography, and geological modeling, with a particular focus on volcaniclastic rocks.
+
+I am currently working as a Teaching Assistant (part-time) in the Remote Sensing and Physiographic Survey courses at the Department of Geology, Universidad Nacional del Sur.
