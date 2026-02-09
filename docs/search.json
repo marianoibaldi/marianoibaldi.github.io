@@ -14,6 +14,62 @@
     "text": "I have experience across different areas of geology, developed primarily in the private sector. My activities include regional and detailed geological mapping, core logging, database management and standardization, cartography, geoinformatics, geological modeling, and geostatistics.\nAdditionally, I have gained experience in computer hardware repair and other electronic and mechanical components. I have programming skills (mainly in Python and R), which I apply both professionally and to solve practical problems.\nIn 2016, I began a PhD, completed in 2025, carried out in parallel with my professional work. This allowed me to deepen my knowledge in calcography, petrography, and geological modeling, with a particular focus on volcaniclastic rocks.\nI am currently working as a Teaching Assistant (part-time) in the Remote Sensing and Physiographic Survey courses at the Department of Geology, Universidad Nacional del Sur."
   },
   {
+    "objectID": "posts/2026-02-10-nombres-archivos/index.html",
+    "href": "posts/2026-02-10-nombres-archivos/index.html",
+    "title": "Los nombres de archivos importan (más de lo que creés)",
+    "section": "",
+    "text": "Hace unos años estaba trabajando con los datos de una campaña de perforación. Organicé la información de los sondajes tal como la pedía el programa que estaba usando en ese momento y todo parecía funcionar bien.\nCuando ejecuté la rutina para concatenar la información, apareció un error: la carpeta que yo había creado no existía.\nRaro. La carpeta y sus archivos estaban ahí, en el lugar correcto, y la ruta también era correcta.\nDespués de varias pruebas y de revisar proyectos anteriores que sí funcionaban, noté algo: esos proyectos tenían nombres sencillos, del tipo Condor o MinaPiche. La carpeta actual, en cambio, se llamaba Proyecto José II.\nLa única diferencia eran los espacios y los acentos.\nSe los quité… y todo empezó a funcionar.\nPerdí más tiempo del que me gustaría admitir hasta darme cuenta. Pero aprendí una regla simple que me acompaña desde entonces:\nNombrar archivos y carpetas de la forma más aburrida (y predecible) posible."
+  },
+  {
+    "objectID": "posts/2026-02-10-nombres-archivos/index.html#el-problema",
+    "href": "posts/2026-02-10-nombres-archivos/index.html#el-problema",
+    "title": "Los nombres de archivos importan (más de lo que creés)",
+    "section": "El problema",
+    "text": "El problema\nMuchas herramientas técnicas —scripts, software científico, pipelines, servidores Linux, entre otras— no siempre manejan bien nombres de carpetas o de archivos con:\n\nEspacios\nAcentos (á, é, í, ó, ú)\nLa ñ\nCaracteres especiales (()#%&)\nMayúsculas inconsistentes\nNombres demasiado largos\n\nA veces funcionan, y otras no. En muchas ocasiones fallan solo cuando movés el proyecto a otra máquina (el peor de los escenarios).\nLos errores típicos que vemos son, por ejemplo:\n\nFile not found\nCannot open connection\nPath does not exist\nNo such file or directory\n\nSeguro podrías sumar varios más a la lista."
+  },
+  {
+    "objectID": "posts/2026-02-10-nombres-archivos/index.html#no-se-suponía-que-hoy-esto-ya-estaba-resuelto",
+    "href": "posts/2026-02-10-nombres-archivos/index.html#no-se-suponía-que-hoy-esto-ya-estaba-resuelto",
+    "title": "Los nombres de archivos importan (más de lo que creés)",
+    "section": "¿No se suponía que hoy esto ya estaba resuelto?",
+    "text": "¿No se suponía que hoy esto ya estaba resuelto?\nEn gran parte, sí. Hoy casi todo usa UTF-8 y los sistemas modernos manejan mejor Unicode. Los problemas son menos frecuentes que hace 10 o 15 años.\nHistóricamente no era así: mucho software técnico nació en entornos Unix/ASCII y estaba pensado en inglés. Caracteres como ñ o á directamente no existían, y un espacio podía partir una ruta en dos argumentos.\nAunque hoy suele funcionar, cuando se combinan:\n\nScripts en R/Python/Bash\nAutomatizaciones\nServidores Linux\nContenedores\nHerramientas antiguas (SIG, bases de datos, scripts heredados, etc.)\n\nEstos detalles reaparecen.\nNo es un bug de un programa específico: es fricción acumulada entre sistemas. Y como tal, muchas veces es un problema difícil de diagnosticar."
+  },
+  {
+    "objectID": "posts/2026-02-10-nombres-archivos/index.html#ejemplos-reales-y-un-poco-exagerados",
+    "href": "posts/2026-02-10-nombres-archivos/index.html#ejemplos-reales-y-un-poco-exagerados",
+    "title": "Los nombres de archivos importan (más de lo que creés)",
+    "section": "Ejemplos reales (y un poco exagerados)",
+    "text": "Ejemplos reales (y un poco exagerados)\nNombres frágiles:\n\nResultados finales!!!\nModelo versión nueva (ahora sí)\nDatos José campaña otoño\nBloque 3 definitivo FINAL\nInforme final final final 02\n\nNombres más robustos:\n\nresultados_finales\nmodelo_v2\ndatos_jose_otono\nbloque_03\ninforme_final_v02\n\nSon menos “lindos”, pero mucho más predecibles… y también más fáciles de buscar."
+  },
+  {
+    "objectID": "posts/2026-02-10-nombres-archivos/index.html#también-importa-la-longitud",
+    "href": "posts/2026-02-10-nombres-archivos/index.html#también-importa-la-longitud",
+    "title": "Los nombres de archivos importan (más de lo que creés)",
+    "section": "También importa la longitud",
+    "text": "También importa la longitud\nOtro problema que suele pasarse por alto es la longitud de los nombres.\nDependiendo del sistema operativo, puede aparecer el clásico mensaje: “el archivo no se puede copiar porque la ruta es demasiado larga”.\nMuchos sistemas limitan la longitud total de la ruta completa, no solo del nombre del archivo.\nPor ejemplo:\nC:\\Proyectos\\Test\\Test1.txt\nAunque Test1.txt sea corto, toda la ruta suma caracteres.\nWindows, Linux y macOS tienen límites distintos (en general alrededor de 255 caracteres por componente o ruta). En algunos casos el sistema incluso permite nombres más largos, pero luego ciertas herramientas no los encuentran porque internamente los truncan.\nResultado: otro error misterioso más."
+  },
+  {
+    "objectID": "posts/2026-02-10-nombres-archivos/index.html#mis-reglas-para-nombrar-archivos-y-carpetas",
+    "href": "posts/2026-02-10-nombres-archivos/index.html#mis-reglas-para-nombrar-archivos-y-carpetas",
+    "title": "Los nombres de archivos importan (más de lo que creés)",
+    "section": "Mis reglas para nombrar archivos y carpetas",
+    "text": "Mis reglas para nombrar archivos y carpetas\nNada sofisticado, solo esto:\n\nMinúsculas\nSin espacios (usar _ o -)\nSin acentos ni ñ\nNombres cortos y descriptivos\nVersiones con v01, v02, etc.\nFechas en formato ISO (YYYY-MM-DD)\n\nEjemplo:\n2026-02-05_modelo_bloques_v03"
+  },
+  {
+    "objectID": "posts/2026-02-10-nombres-archivos/index.html#la-idea-de-fondo",
+    "href": "posts/2026-02-10-nombres-archivos/index.html#la-idea-de-fondo",
+    "title": "Los nombres de archivos importan (más de lo que creés)",
+    "section": "La idea de fondo",
+    "text": "La idea de fondo\nNo es que esté prohibido usar acentos o espacios. La mayoría de las veces van a funcionar.\nEs simplemente una regla de robustez:\n\n\n\n\n\n\nNota\n\n\n\nCuanto más simple el nombre, menos cosas pueden salir mal cuando ese archivo pase por distintos sistemas, rutinas o programas.\n\n\nProbablemente sea la mejora de productividad más sencilla y barata que conozco.\nTomarte cinco segundos para nombrar bien un archivo, puede ahorrarte media tarde persiguiendo errores invisibles."
+  },
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "Libreta de campo digital",
+    "section": "",
+    "text": "Los nombres de archivos importan (más de lo que creés)\n\n\n\nInformática general\n\n\n\nBuenas prácticas básicas que evitan el 80% de los errores indetectables\n\n\n\nMariano Ibaldi\n\n\n10 feb 2026\n\n\n\n\n\n\nNo hay resultados"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Mariano Ibaldi",

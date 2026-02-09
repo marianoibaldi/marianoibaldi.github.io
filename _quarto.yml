@@ -6,6 +6,7 @@ project:
   output-dir: docs
 
 lang: es-AR
+csl: raga.csl
 
 website:
   title: "Mariano Ibaldi"
@@ -25,6 +26,7 @@ website:
             href: cv_es.html
           - text: English
             href: cv_en.html
+      - posts.qmd
       - text: Acerca de mí/About me
         menu: 
           - text: Español

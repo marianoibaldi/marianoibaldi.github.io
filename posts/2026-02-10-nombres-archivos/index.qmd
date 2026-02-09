@@ -1,0 +1,167 @@
+---
+title: "Los nombres de archivos importan (más de lo que creés)"
+description: "Buenas prácticas básicas que evitan el 80% de los errores indetectables"
+lang: es-AR
+date: 02-10-2026
+categories: [Informática general]
+image: folder_file_problems.png
+citation: 
+  url: https://marianoibaldi.github.io/posts/2026-02-10-nombres-archivos/
+draft: false
+---
+
+Hace unos años estaba trabajando con los datos de una campaña de perforación. Organicé la información de los sondajes tal como la pedía el programa que estaba usando en ese momento y todo parecía funcionar bien.
+
+Cuando ejecuté la rutina para concatenar la información, apareció un error: la carpeta que yo había creado no existía.
+
+Raro.
+La carpeta y sus archivos estaban ahí, en el lugar correcto, y la ruta también era correcta.
+
+Después de varias pruebas y de revisar proyectos anteriores que sí funcionaban, noté algo: esos proyectos tenían nombres sencillos, del tipo `Condor` o `MinaPiche`.
+La carpeta actual, en cambio, se llamaba `Proyecto José II`.
+
+La única diferencia eran los espacios y los acentos.
+
+Se los quité… y todo empezó a funcionar.
+
+Perdí más tiempo del que me gustaría admitir hasta darme cuenta.
+Pero aprendí una regla simple que me acompaña desde entonces:
+
+**Nombrar archivos y carpetas de la forma más aburrida (y predecible) posible.**
+
+## El problema
+
+Muchas herramientas técnicas —*scripts*, software científico, *pipelines*, servidores Linux, entre otras— no siempre manejan bien nombres de carpetas o de archivos con:
+
+* Espacios
+
+* Acentos (á, é, í, ó, ú)
+
+* La ñ
+
+* Caracteres especiales (()[]{}#%&)
+
+* Mayúsculas inconsistentes
+
+* Nombres demasiado largos
+
+A veces funcionan, y otras no.
+En muchas ocasiones fallan solo cuando movés el proyecto a otra máquina (el peor de los escenarios).
+
+Los errores típicos que vemos son, por ejemplo:
+
+* `File not found`
+
+* `Cannot open connection`
+
+* `Path does not exist`
+
+* `No such file or directory`
+
+Seguro podrías sumar varios más a la lista.
+
+## ¿No se suponía que hoy esto ya estaba resuelto?
+
+En gran parte, sí.
+Hoy casi todo usa UTF-8 y los sistemas modernos manejan mejor Unicode. Los problemas son menos frecuentes que hace 10 o 15 años.
+
+Históricamente no era así: mucho software técnico nació en entornos Unix/ASCII y estaba pensado en inglés. Caracteres como ñ o á directamente no existían, y un espacio podía partir una ruta en dos argumentos.
+
+Aunque hoy suele funcionar, cuando se combinan:
+
+* Scripts en R/Python/Bash
+
+* Automatizaciones
+
+* Servidores Linux
+
+* Contenedores
+
+* Herramientas antiguas (SIG, bases de datos, *scripts* heredados, etc.)
+
+Estos detalles reaparecen.
+
+No es un *bug* de un programa específico: es fricción acumulada entre sistemas. Y como tal, muchas veces es un problema difícil de diagnosticar.
+
+## Ejemplos reales (y un poco exagerados)
+
+Nombres frágiles:
+
+* Resultados finales!!!
+
+* Modelo versión nueva (ahora sí)
+
+* Datos José campaña otoño
+
+* Bloque 3 definitivo FINAL
+
+* Informe final final final 02
+
+Nombres más robustos:
+
+* resultados_finales
+
+* modelo_v2
+
+* datos_jose_otono
+
+* bloque_03
+
+* informe_final_v02
+
+Son menos “lindos”, pero mucho más predecibles… y también más fáciles de buscar.
+
+## También importa la longitud
+
+Otro problema que suele pasarse por alto es la longitud de los nombres.
+
+Dependiendo del sistema operativo, puede aparecer el clásico mensaje:
+“el archivo no se puede copiar porque la ruta es demasiado larga”.
+
+Muchos sistemas limitan la longitud total de la ruta completa, no solo del nombre del archivo.
+
+Por ejemplo:
+
+`C:\Proyectos\Test\Test1.txt`
+
+Aunque Test1.txt sea corto, toda la ruta suma caracteres.
+
+Windows, Linux y macOS tienen límites distintos (en general alrededor de 255 caracteres por componente o ruta). En algunos casos el sistema incluso permite nombres más largos, pero luego ciertas herramientas no los encuentran porque internamente los truncan.
+
+Resultado: otro error misterioso más.
+
+## Mis reglas para nombrar archivos y carpetas
+
+Nada sofisticado, solo esto:
+
+* Minúsculas
+
+* Sin espacios (usar _ o -)
+
+* Sin acentos ni ñ
+
+* Nombres cortos y descriptivos
+
+* Versiones con v01, v02, etc.
+
+* Fechas en formato ISO (YYYY-MM-DD)
+
+Ejemplo:
+
+`2026-02-05_modelo_bloques_v03`
+
+
+## La idea de fondo
+
+No es que esté prohibido usar acentos o espacios.
+La mayoría de las veces van a funcionar.
+
+Es simplemente una regla de robustez:
+
+:::{.callout-note}
+Cuanto más simple el nombre, menos cosas pueden salir mal cuando ese archivo pase por distintos sistemas, rutinas o programas.
+:::
+
+Probablemente sea la mejora de productividad más sencilla y barata que conozco.
+
+Tomarte cinco segundos para nombrar (o renombrar) bien un archivo, puede ahorrarte media tarde persiguiendo errores invisibles.
