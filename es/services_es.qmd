@@ -26,7 +26,7 @@ title: "Áreas de trabajo"
 
 * Generación de mapas técnicos y layouts profesionales
 
-* Manejo de proyecciones, grillas, MDT/DEM y análisis espacial
+* Manejo de proyecciones, grillas, MDT/MDE y análisis espacial
 
 * Procesamiento de imágenes satelitales y datos *raster*
 
@@ -38,7 +38,7 @@ title: "Áreas de trabajo"
 
 # {{< fa border-all >}}️ Modelado geológico 3D
 
-* Modelado implícito y explícito (Leapfrog, RecMin, Minesight, Datamine o similares)
+* Modelado implícito y explícito (Leapfrog, RecMin, Minesight, Micromine o similares)
 
 * Construcción de *wireframes*, superficies y sólidos geológicos
 
@@ -74,7 +74,7 @@ title: "Áreas de trabajo"
 
 * Integración entre software (GIS – DB – Modelado – Excel/Calc/R/Python)
 
-* Desarrollo de scripts y herramientas personalizadas
+* Desarrollo de *scripts* y herramientas personalizadas
 
 * Documentación técnica y estandarización de procesos
 

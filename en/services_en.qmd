@@ -27,7 +27,7 @@ lang: en
 
 * Production of technical maps and professional layouts
 
-* Management of projections, grids, DTMs/DEMs, and spatial analysis
+* Management of projections, grids, DTM/DEM, and spatial analysis
 
 * Processing of satellite imagery and raster data
 
@@ -39,7 +39,7 @@ lang: en
 
 # {{< fa border-all >}}️ 3D geological modelingD
 
-* Implicit and explicit modeling (Leapfrog, RecMin, Minesight, Datamine, or similar)
+* Implicit and explicit modeling (Leapfrog, RecMin, Minesight, Micromine, or similar)
 
 * Construction of wireframes, geological surfaces, and solids
 
