@@ -11,7 +11,7 @@ about:
       href: https://www.linkedin.com/in/marianoibaldi/
     - icon: envelope
       text: Email
-      href: mailto:moibaldi@gmail.com
+      href: mailto:mariano.ibaldi@gmail.com
 ---
 
 ```{r}
