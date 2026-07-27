@@ -4,94 +4,96 @@ title: "Áreas de trabajo"
 
 ::: {.callout-note collapse="true" appearance="minimal"}
 
-# {{< fa database >}}️ Gestión y control de calidad de datos geológicos
+# {{< fa database >}}️ Auditoría, Saneamiento y Gestión de Datos Geológicos
 
-* Armado, limpieza y validación de bases de datos geológicas
+**El problema que resuelve**: Datos históricos dispersos, inconsistencias en sondajes o bases fuera de estándar que frenan auditorías y devalúan el proyecto.
 
-* Estandarización de estructuras y flujos de carga de datos
+* **Armado y saneamiento de DB**: Limpieza, estructuración y validación de bases de datos de exploración, producción y geofísica.
 
-* Auditoría y control de calidad (consistencias, duplicados, errores topológicos)
+* **Auditoría de calidad (QA/QC)**: Detección y corrección de inconsistencias, duplicados y errores topológicos en información histórica.
 
-* Automatización de procesos con R / Python / SQL
+* **Estandarización de flujos**: Definición de arquitecturas de datos unificadas y flujos de carga seguros para equipos de campo.
 
-* Integración de datos de sondajes, mapeo y geofísica
-
-:::
-
-::: {.callout-note collapse="true" appearance="minimal"}
-
-# {{< fa map >}}️ SIG y cartografía avanzada
-
-* Cartografía geológica y temática en QGIS
-
-* Generación de mapas técnicos y layouts profesionales
-
-* Manejo de proyecciones, grillas, MDT/MDE y análisis espacial
-
-* Procesamiento de imágenes satelitales y datos *raster*
-
-* Integración GIS–modelado 3D
+* **Integración multifuente**: Consolidación de sondajes, mapeos, datos analíticos y geofísica en un repositorio central confiable.
 
 :::
 
 ::: {.callout-note collapse="true" appearance="minimal"}
 
-# {{< fa border-all >}}️ Modelado geológico 3D
+# {{< fa map >}}️ SIG Avanzado y Análisis Espacial Aplicado
 
-* Modelado implícito y explícito (Leapfrog, RecMin, Minesight, Micromine o similares)
+**El problema que resuelve**: Cartografía desorganizada, falta de estándares cartográficos y dificultad para integrar sensores remotos en el modelo geológico.
 
-* Construcción de *wireframes*, superficies y sólidos geológicos
+* **Cartografía técnica y de detalle**: Generación de *layouts* profesionales y mapas temáticos de alta calidad en QGIS.
 
-* Preparación de modelos para estimación de recursos
+* **Análisis espacial avanzado**: Procesamiento de MDT/MDE, grillas, imágenes satelitales y datos *raster* para soporte en exploración.
 
-* Validación geométrica y coherencia geológica
+* **Gestión de geodatos**: Control de proyecciones, sistemas de referencia y estandarización de geodatabases espaciales.
 
-:::
-
-::: {.callout-note collapse="true" appearance="minimal"}
-
-# {{< fa chart-column >}}️ Análisis de datos y geoestadística
-
-* Estadística descriptiva y exploratoria de datos de sondajes
-
-* Compositado, *declustering* y análisis de variografía
-
-* Soporte en estimación de recursos (IDW, Kriging, etc.)
-
-* Validación de modelos
-
-* Visualización y reportes técnicos
+* **Soporte cartográfico para modelos 3D**: Estructuración de datos de mapeo en superficie listos para alimentar sistemas de modelado.
 
 :::
 
 ::: {.callout-note collapse="true" appearance="minimal"}
 
-# {{< fa gears >}} Optimización de flujos de trabajo
+# {{< fa border-all >}}️ Modelado Geológico 3D e Integración de Activos
 
-* Diseño de *workflows* reproducibles
+**El problema que resuelve**: Incertidumbre geológica, falta de coherencia entre datos de superficie y profundidad, o modelos desactualizados.
 
-* Automatización de tareas repetitivas
+* **Construcción de modelos geológicos**: Generación de modelos implícitos y explícitos (Leapfrog, Micromine, MineSight, RecMin) orientados a producción o estimación.
 
-* Integración entre software (GIS – DB – Modelado – Excel/Calc/R/Python)
+* **Validación de coherencia**: Construcción y verificación geométrica/geológica de *wireframes*, dominios y sólidos.
 
-* Desarrollo de *scripts* y herramientas personalizadas
+* **Preparación para estimación**: Acondicionamiento de datos y superficies para etapas de evaluación y categorización de recursos.
 
-* Documentación técnica y estandarización de procesos
+* **Integración 2D–3D**: Conversión de cartografía de detalle e interpretación estructural en volúmenes 3D.
 
 :::
 
 ::: {.callout-note collapse="true" appearance="minimal"}
 
-# {{< fa code-branch >}} Soporte técnico y conceptual
+# {{< fa chart-column >}}️ Análisis Exploratorio de Datos y Geoestadística
 
-* Revisión crítica de modelos y datos
+**El problema que resuelve**: Falta de rigor estadístico en el tratamiento de leyes/variables o interpretaciones débiles antes de la estimación.
 
-* Resolución de problemas técnicos y metodológicos
+* **Análisis exploratorio de datos (AED)**: Estadística descriptiva, detección de anomalías y evaluación de sesgos en datos de muestreo.
 
-* Asesoramiento en mejores prácticas de exploración y manejo de datos
+* **Acondicionamiento de datos**: Compositado, declustering y análisis de continuidad espacial (variografía).
 
-* Capacitación a equipos técnicos
+* **Soporte en estimación**: Aplicación y validación de métodos de interpolación (IDW, Kriging, etc.).
 
-* Soporte remoto o *in situ*
+* **Validación de modelos**: Chequeo cruzado y reportes técnicos para respaldar las interpretaciones del recurso.
+
+:::
+
+::: {.callout-note collapse="true" appearance="minimal"}
+
+# {{< fa gears >}} Automatización e Ingeniería de Flujos de Trabajo
+
+**El problema que resuelve**: Cuellos de botella por procesos manuales, errores al migrar datos entre programas y pérdida de horas hombre en tareas repetitivas.
+
+* **Desarrollo de *scripts* a medida**: Automatización de tareas de procesamiento y análisis mediante R, Python y SQL.
+
+* **Interoperabilidad de software**: Integración y migración de datos fluida entre plataformas (GIS ↔ DB ↔ Modelado 3D ↔ R/Python).
+
+* **Flujos de trabajo reproducibles**: Diseños de *workflows* documentados que garantizan trazabilidad y reducen el margen de error humano.
+
+* **Herramientas personalizadas**: Creación de soluciones rápidas para la generación de reportes técnicos automáticos y controles masivos.
+
+:::
+
+::: {.callout-note collapse="true" appearance="minimal"}
+
+# {{< fa code-branch >}} Diagnóstico Técnico y Consultoría Especializada
+
+**El problema que resuelve**: Puntos ciegos metodológicos, necesidad de una mirada experta e independiente o falta de capacitación en herramientas avanzadas.
+
+* **Revisión crítica e independiente**: Auditoría técnica de modelos 3D, bases de datos y flujos de trabajo existentes.
+
+* **Resolución de problemas complejos**: Diagnóstico de fallas metodológicas o inconsistencias técnicas en proyectos en marcha.
+
+* **Asesoramiento estratégico**: Definición de mejores prácticas para la captura, almacenamiento y uso de datos geocientíficos.
+
+* **Acompañamiento a equipos**: Soporte técnico puntual y capacitación aplicada a profesionales del proyecto (remoto o *in situ*).
 
 :::
