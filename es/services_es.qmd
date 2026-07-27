@@ -2,6 +2,8 @@
 title: "Áreas de trabajo"
 ---
 
+Transformo datos geológicos complejos y desestructurados en bases de datos y modelos 3D confiables para la toma de decisiones, auditorías e inversión.
+
 ::: {.callout-note collapse="true" appearance="minimal"}
 
 # {{< fa database >}}️ Auditoría, Saneamiento y Gestión de Datos Geológicos

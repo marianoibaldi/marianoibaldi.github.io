@@ -3,6 +3,8 @@ title: "Areas of Expertise"
 lang: en
 ---
 
+I transform complex, unstructured geological data into reliable 3D models and databases for decision-making, auditing, and investment.
+
 ::: {.callout-note collapse="true" appearance="minimal"}
 
 # {{< fa database >}}️ Geological Data Audit, Cleaning, and Management
