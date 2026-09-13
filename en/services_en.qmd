@@ -3,100 +3,100 @@ title: "Areas of Expertise"
 lang: en
 ---
 
-I transform complex, unstructured geological data into reliable 3D models and databases for decision-making, auditing, and investment.
+I integrate geological information, data, and digital tools to organize, analyze, and interpret exploration and resource evaluation projects.
 
 ::: {.callout-note collapse="true" appearance="minimal"}
 
-# {{< fa database >}}️ Geological Data Audit, Cleaning, and Management
+# {{< fa database >}}️ Geological Data and QA/QC
 
-**The problem it solves**: Dispersed historical data, drillhole inconsistencies, or non-standard databases that slow down audits and devalue the project.
+**The problem it solves**: Scattered historical data, inconsistencies in drillhole information, or datasets that are difficult to use, analyze, or integrate.
 
-* **DB setup and cleaning**: Cleaning, structuring, and validation of exploration, production, and geophysical databases.
+* **Database organization and data cleaning**: Cleaning, structuring, and validating exploration databases and other geological datasets.
 
-* **Quality auditing (QA/QC)**: Detection and correction of inconsistencies, duplicates, and topological errors in historical data.
+* **Quality control (QA/QC)**: Identification of inconsistencies, duplicates, missing values, and errors in historical data.
 
-* **Workflow standardization**: Definition of unified data architectures and secure data entry workflows for field teams.
+* **Data standardization**: Definition of data structures and procedures to facilitate the entry, querying, and updating of geological information.
 
-* **Multi-source integration**: Consolidation of drillhole, mapping, analytical, and geophysical data into a reliable central repository.
+* **Data integration**: Consolidation of drillhole, sampling, mapping, and analytical data into coherent and usable structures.
 
 :::
 
 ::: {.callout-note collapse="true" appearance="minimal"}
 
-# {{< fa map >}}️ Advanced GIS & Applied Spatial Analysis
+# {{< fa map >}}️ GIS and Applied Spatial Analysis
 
-**The problem it solves**: Disorganized mapping, lack of cartographic standards, and difficulty integrating remote sensing into the geological model.
+**The problem it solves**: Scattered geographic information, poorly integrated mapping, or difficulties relating spatial data from different sources.
 
-* **Technical and detailed cartography**: Generation of professional layouts and high-quality thematic maps in QGIS.
+* **Technical and thematic mapping**: Creation of professional maps and cartographic products using QGIS.
 
-* **Advanced spatial analysis**: Processing of DTM/DEM, grids, satellite imagery, and raster data to support exploration.
+* **Spatial analysis**: Processing of digital elevation models, satellite imagery, and other raster and vector data.
 
-* **Geodata management**: Control of projections, coordinate reference systems, and spatial geodatabase standardization.
+* **Geospatial data management**: Organization and control of coordinate reference systems, projections, and spatial data structures.
 
-* **Cartographic support for 3D models**: Structuring surface mapping data ready to feed 3D modeling systems.
-
-:::
-
-::: {.callout-note collapse="true" appearance="minimal"}
-
-# {{< fa border-all >}}️ 3D Geological Modeling & Asset Integration
-
-**The problem it solves**: Geological uncertainty, lack of consistency between surface and subsurface data, or outdated models.
-
-* **Geological model construction**: Generation of implicit and explicit models (Leapfrog, Micromine, MineSight, RecMin) geared toward production or resource estimation.
-
-* **Consistency validation**: Geometric and geological construction and verification of wireframes, domains, and solids.
-
-* **Preparation for estimation**: Data and surface preparation for resource evaluation and categorization stages.
-
-* **2D–3D integration**: Conversion of detailed mapping and structural interpretation into 3D volumes.
+* **Geospatial integration**: Preparation of cartographic and spatial information for integration with databases and 3D geological models.
 
 :::
 
 ::: {.callout-note collapse="true" appearance="minimal"}
 
-# {{< fa chart-column >}}️ Exploratory Data Analysis & Geostatistics
+# {{< fa border-all >}}️ 3D Geological Modeling and Interpretation
 
-**The problem it solves**: Lack of statistical rigor in treating grades/variables or weak interpretations prior to resource estimation.
+**The problem it solves**: Difficulties integrating surface and subsurface information, interpreting geological relationships, or updating existing models.
 
-* **Exploratory Data Analysis (EDA)**: Descriptive statistics, anomaly detection, and bias evaluation in sampling data.
+* **Geological model construction**: Development and updating of 3D models from surface and subsurface information using Leapfrog Geo, Micromine, MineSight, or RecMin.
 
-* **Data conditioning**: Compositing, declustering, and spatial continuity analysis (variography).
+* **Geological interpretation**: Integration of geological units, structures, domains, and other interpretations into three-dimensional models.
 
-* **Estimation support**: Application and validation of interpolation methods (IDW, Kriging, etc.).
+* **Existing model review**: Assessment of the geological and geometric consistency of surfaces, solids, domains, and wireframes.
 
-* **Model validation**: Cross-checking and technical reporting to back resource interpretations.
-
-:::
-
-::: {.callout-note collapse="true" appearance="minimal"}
-
-# {{< fa gears >}} Automation & Workflow Engineering
-
-**The problem it solves**: Bottlenecks from manual processes, errors when migrating data between software platforms, and wasted man-hours on repetitive tasks.
-
-* **Custom script development**: Automation of processing and analysis tasks using R, Python, and SQL.
-
-* **Software interoperability**: Seamless data integration and migration between platforms (GIS ↔ DB ↔ 3D Modeling ↔ R/Python).
-
-* **Reproducible workflows**: Documented workflow designs that guarantee traceability and reduce human error.
-
-* **Custom tools**: Development of fast solutions for automated technical reporting and bulk quality checks.
+* **Data preparation**: Organization and conditioning of data and surfaces for subsequent analysis and evaluation.
 
 :::
 
 ::: {.callout-note collapse="true" appearance="minimal"}
 
-# {{< fa code-branch >}} Technical Diagnosis & Specialized Consulting
+# {{< fa chart-column >}}️ Geological Data Analysis
 
-**The problem it solves**: Methodological blind spots, the need for an independent expert perspective, or a lack of training in advanced tools.
+**The problem it solves**: Geological data that are difficult to interpret, insufficient exploratory analysis, or uncertainty regarding the quality and behavior of variables.
 
-* **Critical and independent review**: Technical audit of existing 3D models, databases, and workflows.
+* **Exploratory data analysis (EDA)**: Descriptive statistics, visualization, and assessment of distributions, anomalies, and outliers.
 
-* **Complex problem solving**: Diagnosis of methodological flaws or technical inconsistencies in ongoing projects.
+* **Data preparation and conditioning**: Evaluation and transformation of sampling data for use in analysis and modeling.
 
-* **Strategic advisory**: Definition of best practices for geoscientific data capture, storage, and usage.
+* **Spatial continuity analysis**: Assessment of the distribution and spatial continuity of geological variables using geostatistical methods.
 
-* **Team support & mentoring**: Targeted technical support and applied training for project professionals (remote or on-site).
+* **Support for estimation workflows**: Preparation and analysis of data for use in geological modeling and resource estimation workflows.
+
+:::
+
+::: {.callout-note collapse="true" appearance="minimal"}
+
+# {{< fa gears >}} Workflow Automation and Integration
+
+**The problem it solves**: Manual and repetitive processes, difficulties transferring data between software applications, or the need to improve the traceability of analytical workflows.
+
+* **Task automation**: Development of scripts in R, Python, and SQL for geological data processing, analysis, and quality control.
+
+* **Tool integration**: Data exchange and transformation between GIS, databases, geological modeling software, and analytical tools.
+
+* **Reproducible workflows**: Design of documented procedures that facilitate traceability, reproducibility, and quality control.
+
+* **Automated product generation**: Automation of quality controls, tables, charts, and other technical outputs.
+
+:::
+
+::: {.callout-note collapse="true" appearance="minimal"}
+
+# {{< fa code-branch >}} Technical Review and Support
+
+**The problem it solves**: The need to review procedures, solve specific technical problems, or incorporate new tools into a geological project.
+
+* **Information and workflow review**: Assessment of existing databases, models, and working procedures.
+
+* **Technical problem diagnosis**: Identification of inconsistencies and development of solutions for problems involving data, GIS, and geological modeling.
+
+* **Process improvement**: Advice on organizing and optimizing the collection, storage, analysis, and use of geological information.
+
+* **Technical support and training**: Technical support and applied training in tools for geological data management, analysis, and modeling.
 
 :::
